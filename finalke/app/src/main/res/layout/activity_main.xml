@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bcd4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kilidi Açmak için Çubuğu Kaydırınız"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:max="12"
+        android:thumb="@drawable/thumb"
+        android:progress="3" />
+
+</LinearLayout>
